@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;font-family: "Poppins", sans-serif;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    transition: scale .3s ease;
+}
+
+:root{
+    --destaque: #008BF8;
+    --escuro: #011638;
+    --preto: #141414;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    padding: 2px;
+    background-color: var(--destaque);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 1.5rem;
+}
+
+main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.servicos {
+    margin-top: 40px;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.servicos > a {
+    width: 75vw;
+    height: 80px;
+    border-radius: 5px;
+    border: 2px solid var(--destaque);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 520;
+    color: black;
+}
+
+.servicos > a:hover {
+    color: #ffff;
+    scale: 1.02;
+    background-color: var(--destaque);
+}
+.servicos > a:active {
+    scale: 0.99;
+}
+
+
+i {
+    font-size: 2.3rem;
+}
+.servicos > a > span {
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+}
